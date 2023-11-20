@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color:cadetblue;
+}
+.info{
+  background-color:aliceblue;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.naziv{
+  text-align: left;
+  margin-bottom: 2px;
+  color: #888;
+}
+
+.plavi_okvir{
+  border: 3px solid;
+  border-color: cadetblue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.check{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.botun{
+  background-color: greenyellow;
+  font-weight: 600;
+}
+
+.unutarnjiTekst{
+  color: #888;
+}
+
+.glavni{
+  display: flex;
+}
+
+.ispis{
+  margin-left: 70px;
+  color: white;
+}

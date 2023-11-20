@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: dimgray;
+}
+
+.okvir{
+  background-color: darkgray;
+  border-radius: 10px;
+  height: 530px;
+  width: 700px;
+}
+
+.datum{
+  position: relative;
+  top: 20px; 
+}
+
+.vrijeme{
+  margin-top: 40px;
+}
+
+.sredina{
+  display: flex;
+  position: relative;
+  top: 40px;
+}
+
+.logo img{
+  height: 50%;
+  width: 50%;
+}
+
+.rezultat{
+  font-size: 350%;
+  position: relative;
+  bottom: 50px;
+}
+
+.dole{
+  display: flex;
+  text-align: center;
+  
+}
+
+.botun{
+  margin: 5px;
+  color:darkslateblue;
+  background-color:floralwhite;
+}
+
+.gol, .kontrole{
+  display: inline-block;
+  flex: auto;
+}
+
+.gol{
+  margin-top: -15px;
+}
+
+.reset{
+  margin-top: 20px;
+  
+}
+
+.reset button{
+  background-color: cadetblue;
+  color: darkred;
+  float: right;
+  
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
