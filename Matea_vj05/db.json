@@ -1,0 +1,39 @@
+{
+  "wardrobe": [
+    {
+      "id": "1",
+      "type": "Skirt",
+      "color": "Red",
+      "size": "S",
+      "image": "f"
+    },
+    {
+      "id": "2",
+      "type": "Skirt",
+      "color": "Red",
+      "size": "S",
+      "image": "b"
+    },
+    {
+      "id": "3",
+      "type": "T-shirt",
+      "color": "Red",
+      "size": "L",
+      "image": "n"
+    },
+    {
+      "id": "4",
+      "type": "Skirt",
+      "color": "Black",
+      "size": "L",
+      "image": "mm"
+    },
+    {
+      "id": "5",
+      "type": "Trousers",
+      "color": "Red",
+      "size": "S",
+      "image": "s"
+    }
+  ]
+}
